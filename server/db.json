@@ -1,0 +1,353 @@
+{
+  "ianuarie": {
+    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "plantare": [],
+    "tip sol": [],
+    "distante plantare": [],
+    "perioada plantare": [],
+    "operatiuni": {
+      "intretinere": {
+        "indepartare frunze uscate": [],
+        "indepartare fructe uscate": [],
+        "protectie": ["Se verifica aparatorile si se repara, daca este cazul."]
+      },
+      "afanare sol": [],
+      "deparazitare": {
+        "solutie": "Se prepara ...",
+        "procedura": "Se stropeste..."
+      },
+      "tratamente fitosanitare": {
+        "solutie": "Se prepara...",
+        "procedura": "Se stropeste..."
+      },
+      "irigare": [],
+      "fertilizare":[],
+      "taiere": [],
+      "recoltare": []
+    }
+  },
+  "februarie": {
+    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "plantare": [],
+    "tip sol": [],
+    "distante plantare": [],
+    "perioada plantare": [],
+    "operatiuni": {
+      "intretinere": {
+        "indepartare frunze uscate": ["Se indeparteaza frunzele uscate si se ard."],
+        "indepartare fructe uscate": ["Se indeparteaza fructele uscate si se ard."],
+        "protectie": []
+      },
+      "afanare sol": [],
+      "deparazitare": {
+        "solutie": "Se prepara ...",
+        "procedura": "Se stropeste..."
+      },
+      "tratamente fitosanitare": {
+        "solutie": "Se prepara...",
+        "procedura": "Se stropeste..."
+      },
+      "irigare": [],
+      "fertilizare":[],
+      "taiere": [],
+      "recoltare": []
+    }
+  },
+  "martie": {
+    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "plantare": ["Toata luna"],
+    "tip sol": [],
+    "distante plantare": ["Pentru mar, par, cais si visin, distanta de plantare este de 4 x 4m, pentru cires, piersic si nuc, distanta de plantare este de 5 x 5m."],
+    "perioada plantare": [],
+    "operatiuni": {
+      "intretinere": {
+        "indepartare frunze uscate": [],
+        "indepartare fructe uscate": [],
+        "protectie": ["Se indeparteaza protectiile si se ard."],
+        "afanare sol": [],
+        "vopsire trunchiuri": ["Se vopsesc trunchiurile si ramurile de schelet cu o solutie compusa din 2 kg var pasta,10 l apa si 500 g sulfat de fier"],
+        "curatare rani si dezinfectare": ["Ranile se dezinfecteaza cu o solutie de sulfat de cupru (piatra vanata) 3% sau sulfat de fier 5%, apoi se vor unge cu o pasta preparata din pamant argilos 60% si balega de vaca 40% si se vor infasura intr-un sac sau cu fasii de polietilena"]
+      },
+      "deparazitare": {
+        "solutie": "Se prepara ...",
+        "procedura": "Se stropeste..."
+      },
+      "tratamente fitosanitare": {
+        "solutie": "Se prepara...",
+        "procedura": "Se stropeste..."
+      },
+      "irigare": [],
+      "fertilizare":[],
+      "taiere": [],
+      "recoltare": []
+    }
+  },
+  "aprilie": {
+    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "plantare": ["Toata luna"],
+    "tip sol": [],
+    "distante plantare": ["Pentru mar, par, cais si visin, distanta de plantare este de 4 x 4m, pentru cires, piersic si nuc, distanta de plantare este de 5 x 5m."],
+    "perioada plantare": [],
+    "operatiuni": {
+      "intretinere": {
+        "indepartare frunze uscate": [],
+        "indepartare fructe uscate": [],
+        "protectie": ["Se indeparteaza protectiile si se ard."],
+        "afanare sol": ["Se afaneaza la dancimea de 4-8 cm"],
+        "vopsire trunchiuri": [],
+        "curatare rani si dezinfectare": []
+      },
+      "deparazitare": {
+        "solutie": "Se prepara ...",
+        "procedura": "Se stropeste..."
+      },
+      "tratamente fitosanitare": {
+        "solutie": "Se prepara...",
+        "procedura": "Se stropeste..."
+      },
+      "irigare": [],
+      "fertilizare":["Se aplica ingrasamintele minerale si cele organice."],
+      "taiere": ["Se executa taierile in uscat, pana la inceperea umflarii mugurilor"],
+      "recoltare": []
+    }
+  },
+  "mai": {
+    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "plantare": [],
+    "tip sol": [],
+    "distante plantare": [],
+    "perioada plantare": [],
+    "operatiuni": {
+      "intretinere": {
+        "indepartare frunze uscate": [],
+        "indepartare fructe uscate": [],
+        "protectie": [],
+        "afanare sol": [],
+        "vopsire trunchiuri": [],
+        "curatare rani si dezinfectare": []
+      },
+      "deparazitare": {
+        "solutie": "Se prepara ...",
+        "procedura": "Se stropeste..."
+      },
+      "tratamente fitosanitare": {
+        "solutie": "Se prepara...",
+        "procedura": "Se stropeste..."
+      },
+      "irigare": [],
+      "fertilizare":["Se aplica ingrasamintele minerale si cele organice."],
+      "taiere": ["Se executa taierile ramurilor uscate"],
+      "recoltare": []
+    }
+  },
+  "iunie": {
+    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "plantare": [],
+    "tip sol": [],
+    "distante plantare": [],
+    "perioada plantare": [],
+    "operatiuni": {
+      "intretinere": {
+        "indepartare frunze uscate": [],
+        "indepartare fructe uscate": [],
+        "protectie": [],
+        "afanare sol": [],
+        "vopsire trunchiuri": [],
+        "curatare rani si dezinfectare": []
+      },
+      "deparazitare": {
+        "solutie": "Se prepara ...",
+        "procedura": "Se stropeste..."
+      },
+      "tratamente fitosanitare": {
+        "solutie": "Se prepara...",
+        "procedura": "Se stropeste..."
+      },
+      "irigare": [],
+      "fertilizare":["Se aplica ingrasamintele minerale si cele organice."],
+      "taiere": ["Se executa taierile ramurilor uscate"],
+      "recoltare": []
+    }
+  },
+  "iulie": {
+    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "plantare": [],
+    "tip sol": [],
+    "distante plantare": [],
+    "perioada plantare": [],
+    "operatiuni": {
+      "intretinere": {
+        "indepartare frunze uscate": [],
+        "indepartare fructe uscate": [],
+        "protectie": [],
+        "afanare sol": [],
+        "vopsire trunchiuri": [],
+        "curatare rani si dezinfectare": []
+      },
+      "deparazitare": {
+        "solutie": "Se prepara ...",
+        "procedura": "Se stropeste..."
+      },
+      "tratamente fitosanitare": {
+        "solutie": "Se prepara...",
+        "procedura": "Se stropeste..."
+      },
+      "irigare": [],
+      "fertilizare":["Se aplica ingrasamintele minerale si cele organice."],
+      "taiere": ["Se executa taierile ramurilor uscate"],
+      "recoltare": []
+    }
+  },
+  "august": {
+    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "plantare": [],
+    "tip sol": [],
+    "distante plantare": [],
+    "perioada plantare": [],
+    "operatiuni": {
+      "intretinere": {
+        "indepartare frunze uscate": [],
+        "indepartare fructe uscate": [],
+        "protectie": [],
+        "afanare sol": [],
+        "vopsire trunchiuri": [],
+        "curatare rani si dezinfectare": []
+      },
+    
+      "deparazitare": {
+        "solutie": "Se prepara ...",
+        "procedura": "Se stropeste..."
+      },
+      "tratamente fitosanitare": {
+        "solutie": "Se prepara...",
+        "procedura": "Se stropeste..."
+      },
+      "irigare": [],
+      "fertilizare":["Se aplica ingrasamintele minerale si cele organice."],
+      "taiere": ["Se executa taierile ramurilor uscate"],
+      "recoltare": []
+    }
+  },
+  "septembrie": {
+      "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+      "plantare": [],
+      "tip sol": [],
+      "distante plantare": [],
+      "perioada plantare": [],
+      "operatiuni": {
+        "intretinere": {
+          "indepartare frunze uscate": [],
+          "indepartare fructe uscate": [],
+          "protectie": [],
+          "afanare sol": [],
+          "vopsire trunchiuri": [],
+          "curatare rani si dezinfectare": []
+        },
+        "deparazitare": {
+          "solutie": "Se prepara ...",
+          "procedura": "Se stropeste..."
+        },
+        "tratamente fitosanitare": {
+          "solutie": "Se prepara...",
+          "procedura": "Se stropeste..."
+        },
+        "irigare": [],
+        "fertilizare":["Se aplica ingrasamintele minerale si cele organice."],
+        "taiere": ["Se executa taierile ramurilor uscate"],
+        "recoltare": []
+      }
+  },
+  "octombrie": {
+    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "legume": ["varza", "ceapa"],
+    "fructe de padure": ["mure", "zmeura", "afine", "aronia"],
+    "plantare": [],
+    "tip sol": [],
+    "distante plantare": [],
+    "perioada plantare": [],
+    "operatiuni": {
+      "intretinere": [
+        {
+          "name": "indepartare frunze uscate",
+          "procedura": {
+            "legume": bkjabskjbdasda",
+          },
+          "echipament": []
+        }
+        // "protectie",
+        // "afanare sol",
+        // "vopsire trunchiuri",
+        // "curatare rani si dezinfectare"
+      ],
+      "tratamente fitosanitare": {
+        "solutie": "Se prepara...",
+        "procedura": "Se stropeste..."
+      },
+      "recoltare": ["manual", "mecanizat"]
+    }
+  },
+
+  "noiembrie": {
+    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "plantare": [],
+    "tip sol": [],
+    "distante plantare": [],
+    "perioada plantare": [],
+    "operatiuni": {
+      "intretinere": {
+        "indepartare frunze uscate": [],
+        "indepartare fructe uscate": [],
+        "protectie": [],
+        "afanare sol": [],
+        "vopsire trunchiuri": [],
+        "curatare rani si dezinfectare": []
+      },
+      "deparazitare": {
+        "solutie": "Se prepara ...",
+        "procedura": "Se stropeste..."
+      },
+      "tratamente fitosanitare": {
+        "solutie": "Se prepara...",
+        "procedura": "Se stropeste..."
+      },
+      "irigare": [],
+      "fertilizare":["Se aplica ingrasamintele minerale si cele organice."],
+      "taiere": ["Se executa taierile ramurilor uscate"],
+      "recoltare": []
+    }
+  },
+  "decembrie": {
+      "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+      "plantare": [],
+      "tip sol": [],
+      "distante plantare": [],
+      "perioada plantare": [],
+      "operatiuni": {
+        "intretinere": {
+          "indepartare frunze uscate": [],
+          "indepartare fructe uscate": [],
+          "protectie": [],
+          "afanare sol": [],
+          "vopsire trunchiuri": [],
+          "curatare rani si dezinfectare": []
+        },
+        "deparazitare": {
+          "solutie": "Se prepara ...",
+          "procedura": "Se stropeste..."
+        },
+        "tratamente fitosanitare": {
+          "solutie": "Se prepara...",
+          "procedura": "Se stropeste..."
+        },
+        "irigare": [],
+        "fertilizare":["Se aplica ingrasamintele minerale si cele organice."],
+        "taiere": ["Se executa taierile ramurilor uscate"],
+        "recoltare": []
+      }
+    },
+  "months": {
+    "ro": ["ianuarie", "februarie", "martie", "aprilie", "mai", "iunie", "iulie", "august", "septembrie", "octombrie", "noiembrie", "decembrie"]
+  }
+}
+
+

@@ -1,0 +1,18 @@
+.card-container {
+  border: 1px solid gray;
+  border-radius: 10px;
+  max-width: 20rem;
+  padding: 1rem;
+  min-height: 15rem;
+}
+
+.card-container > img {
+  width: 286px;
+  height: 184px;
+  object-fit: cover;
+}
+
+.card-container > h4 {
+  text-align: center;
+  text-transform: capitalize;
+}
