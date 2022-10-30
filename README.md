@@ -1,1 +1,1 @@
-# React-json-server-boilerplate is a client-server app made for SDA students.
+Asistent pentru lucrari agricole, ofera o baza de date cu operatiuni si alte informatii specifice vremii si lunii curente
