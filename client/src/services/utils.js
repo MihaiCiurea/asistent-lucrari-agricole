@@ -5,6 +5,10 @@ const imagesMap = {
   "pomi fructiferi": "images/pomiFructiferi.jpg",
   legume: "images/legume.png",
   "fructe de padure": "images/fructePadure.jpg",
+  irigare: "images/irigare.jpg",
+  fertilizare: "images/fertilizare.jpg",
+  taiere: "images/taiere.jpg",
+  deparazitare: "images/deparazitare.jpg",
 };
 
 function getGeoLocation(cb) {

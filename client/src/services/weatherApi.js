@@ -23,6 +23,10 @@ const getCurrentWeatherByLocation = () => {
   });
 };
 
+const getCurrentWeatherByCity = (city) => {
+  return weatherApi.get(`/weather?q=${city}&units=metric&appid=${API_KEY}`);
+};
+
 const getForecastByLocation = () => {
   if (forecast) return forecast;
   else {
@@ -42,17 +46,22 @@ const getForecastByLocation = () => {
   }
 };
 
-const getForecastForToday = () => {
-  if (!forecast) return;
+const getForecastByCity = (city) => {
+  return weatherApi.get(`/forecast?q=${city}&units=metric&appid=${API_KEY}`);
+};
+
+const getForecastForToday = (forecastData) => {
   const date = new Date();
   const offset = date.getTimezoneOffset();
   const dateWithOffset = new Date(date.getTime() - offset * 60 * 1000);
   const today = dateWithOffset.toISOString().split("T")[0];
-  return forecast.list.filter((obj) => obj.dt_txt.includes(today));
+  return forecastData.list.filter((obj) => obj.dt_txt.includes(today));
 };
 
 export {
   getCurrentWeatherByLocation,
+  getCurrentWeatherByCity,
   getForecastByLocation,
   getForecastForToday,
+  getForecastByCity,
 };

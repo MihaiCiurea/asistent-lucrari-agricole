@@ -4,20 +4,27 @@ import {
   getCurrentWeatherByLocation,
   getForecastByLocation,
   getForecastForToday,
+  getCurrentWeatherByCity,
+  getForecastByCity,
 } from "../services/weatherApi";
-import { getCurrentMonth, getImage, getFormatedDate } from "../services/utils";
+import { getCurrentMonth, getImage } from "../services/utils";
 import Card from "../components/card/card";
 import { useNavigate } from "react-router-dom";
+import WeatherCard from "../components/weatherCard/weatherCard";
 
 const Home = () => {
   const [currentMonth, setCurrentMonth] = useState();
   const [currentWeather, setCurrentWeather] = useState();
+  const [searchedCurrentWeather, setSearchedCurrentWeather] = useState();
+  const [searchedForecastToday, setSearchedForecastToday] = useState();
+  const [selectedWeatherCard, setSelectedWeatherCard] = useState();
   const [forecastDataForToday, setForecastDataForToday] = useState();
   const [data, setData] = useState();
 
   const navigate = useNavigate();
 
   const monthsRo = useRef();
+  const forecast = useRef();
 
   useEffect(() => {
     async function fetchData() {
@@ -32,7 +39,12 @@ const Home = () => {
         setData(data.data);
         setCurrentMonth(month);
         setCurrentWeather(weather);
+        setSelectedWeatherCard(weather.name);
         setForecastDataForToday(forecastForToday);
+        forecast.current = {
+          forecastByLocation: forecastForToday,
+          forecastByCity: null,
+        };
       } catch (error) {
         console.log(error);
       }
@@ -44,49 +56,53 @@ const Home = () => {
     navigate(`/operations/${op}`);
   };
 
-  console.log(forecastDataForToday);
+  const handleGetWeather = async (value) => {
+    try {
+      const res = await getCurrentWeatherByCity(value);
+      setSearchedCurrentWeather(res.data);
+      const forecastData = await getForecastByCity(value);
+      const fcToday = getForecastForToday(forecastData.data);
+      console.log(forecast.current, forecastData.data);
+      forecast.current.forecastByCity = fcToday;
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  const handleSelectWeatherCard = (selectedCardObj, forecastType) => {
+    console.log(forecast.current[forecastType], forecast.current);
+    setSelectedWeatherCard(selectedCardObj.name);
+    setForecastDataForToday(forecast.current[forecastType]);
+  };
 
   return (
     <div className="home-container">
       <h1 className="text-center text-capitalize mb-2">{currentMonth}</h1>
-      {currentWeather && (
-        <div className="d-flex flex-wrap justify-content-center">
-          <div className="home-weather-card">
-            <img
-              src={
-                "http://openweathermap.org/img/wn/" +
-                currentWeather?.weather[0]?.icon +
-                "@2x.png"
-              }
-              alt="weather icon"
-            />
-            <p className="m-0">{currentWeather.name}</p>
-            <p className="m-0">{currentWeather?.weather[0]?.description}</p>
-          </div>
-          <div className="home-weather-card">
-            <p className="m-0">
-              <span>{getFormatedDate(monthsRo.current)}</span>
-            </p>
-            <p className="m-0">
-              <span>Viteza Vantului</span>
-              {currentWeather.wind.speed}m/s
-            </p>
-            <p className="m-0">
-              <span>Temperatura:</span>
-              {currentWeather.main.temp}C&#176;
-            </p>
-            <p className="m-0">
-              <span>Umiditate:</span>
-              {currentWeather.main.humidity}%
-            </p>
-            <p className="m-0">
-              <span>Presiune:</span>
-              {currentWeather.main.pressure}hPa
-            </p>
-          </div>
-        </div>
-      )}
+      <div className="d-flex flex-wrap justify-content-center gap-4">
+        {currentWeather && (
+          <WeatherCard
+            monthsRo={monthsRo}
+            currentWeather={currentWeather}
+            showSearch={false}
+            onClick={() =>
+              handleSelectWeatherCard(currentWeather, "forecastByLocation")
+            }
+          />
+        )}
+        <WeatherCard
+          monthsRo={monthsRo}
+          currentWeather={searchedCurrentWeather}
+          showSearch={true}
+          handleGetWeather={handleGetWeather}
+          onClick={() =>
+            handleSelectWeatherCard(searchedCurrentWeather, "forecastByCity")
+          }
+        />
+      </div>
       <hr className="mt-4 mb-4 ms-2 me-2" />
+      <h5 className="text-center mb-2">
+        Prognoza Meteo {selectedWeatherCard || ""}
+      </h5>
       <div className="d-flex flex-wrap gap-3 justify-content-center">
         {forecastDataForToday &&
           forecastDataForToday.map((obj) => (
