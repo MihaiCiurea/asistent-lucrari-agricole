@@ -294,16 +294,30 @@
 
   "noiembrie": {
     "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
-    "plantare": [],
-    "tip sol": [],
-    "distante plantare": [],
-    "perioada plantare": [],
+    "plantare": {
+      "tip sol": [],
+      "distante plantare": {
+        "pomi fructiferi": ["4x4m"],
+        "legume": ["0.5x0.2m"],
+        "fructe de padure": ["2x2m"]
+      },
+      "perioada plantare": {
+        "pomi fructiferi": ["octombrie", "noiembrie", "martie", "aprilie"],
+        "legume": ["septembrie", "octombrie", "februarie", "martie"],
+        "fructe de padure": ["octombrie", "noiembrie", "martie", "aprilie"]
+      },
+      "echipament": {
+        "pomi fructiferi": ["foreza", "cazma", "lopata", "manusi protectie"],
+        "legume": ["cazma", "sapa", "plantator", "manusi protectie"],
+        "fructe de padure": ["cazma", "lopata", "manusi protectie"]
+      }
+  },
     "operatiuni": {
       "intretinere": {
-        "indepartare frunze uscate": [],
-        "indepartare fructe uscate": [],
-        "protectie": [],
-        "afanare sol": [],
+        "indepartare frunze uscate": ["Cu ajutorul unei greble se aduna frunzele uscate si se incinereaza pentru a se distruge bolile si daunatorii. Atentie insa ca focul sa poata fi supravegheat indeaproape pentru a nu se extinde"],
+        "indepartare fructe uscate": ["Cu ajutorul unei greble se aduna frunctele uscate si se incinereaza pentru a se distruge bolile si daunatorii. Atentie insa ca focul sa poata fi supravegheat indeaproape pentru a nu se extinde"],
+        "protectie": ["Pentru protejarea de rozatoare, se foloseste o protectie confectionata din rafie care, se infasoara in jurul tulpinei copacilor. Pentru protectia la inghet se procedeaza la 'mulcire', prin acoperirea la baza cu scoarta de copac, aschii de copac, fan, astfel incat sa se creeze o bariera impotriva inghetului."],
+        "afanare sol": ["Se efectueaza afnarea solului prin operatiuni de arare, discuire si scarificare"],
         "vopsire trunchiuri": [],
         "curatare rani si dezinfectare": []
       },
