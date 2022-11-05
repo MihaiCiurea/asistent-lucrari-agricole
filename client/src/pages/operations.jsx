@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { getMonthsNames, getDataByMonth } from "../services/api";
+import { getMonthsNames, getDataByMonth } from "../services/db";
 import { getCurrentMonth } from "../services/utils";
 
 const Operations = () => {

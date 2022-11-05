@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import { getMonthsNames, getDataByMonth } from "../services/api";
+import { getMonthsNames, getDataByMonth } from "../services/db";
 import {
   getCurrentWeatherByLocation,
   getForecastByLocation,
