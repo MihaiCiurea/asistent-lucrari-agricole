@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { getMonthsNames, getDataByMonth } from "../services/api";
-import { getCurrentMonth, getImage } from "../services/utils";
+import { getCurrentMonth } from "../services/utils";
 
 const Operations = () => {
   const params = useParams();
@@ -13,7 +13,7 @@ const Operations = () => {
       console.log(data?.data?.operatiuni[params.operation]);
     }
     fetchData();
-  }, []);
+  });
   return <div>{params.operation}</div>;
 };
 

@@ -263,21 +263,25 @@
     "fructe de padure": ["mure", "zmeura", "afine", "aronia"],
     "plantare": [],
     "tip sol": [],
-    "distante plantare": [],
+    "distante plantare":{
+      "pomi fructiferi": [],
+      "legume": [],
+      "fructe de padure": []
+    } ,
     "perioada plantare": [],
     "operatiuni": {
       "intretinere": [
         {
           "name": "indepartare frunze uscate",
           "procedura": {
-            "legume": bkjabskjbdasda",
+            "legume": "bkjabskjbdasda"
           },
           "echipament": []
-        }
-        // "protectie",
-        // "afanare sol",
-        // "vopsire trunchiuri",
-        // "curatare rani si dezinfectare"
+        },
+        "protectie",
+        "afanare sol",
+        "vopsire trunchiuri",
+        "curatare rani si dezinfectare"
       ],
       "tratamente fitosanitare": {
         "solutie": "Se prepara...",
@@ -318,10 +322,22 @@
   },
   "decembrie": {
       "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
-      "plantare": [],
+      "plantare":{
+        "pomi fructiferi": [],
+        "legume": [],
+        "fructe de padure":[]
+      },
       "tip sol": [],
-      "distante plantare": [],
-      "perioada plantare": [],
+      "distante plantare": {
+        "pomi fructiferi": [],
+        "legume": [],
+        "fructe de padure":[]
+      },
+      "perioada plantare": {
+        "pomi fructiferi": [],
+        "legume": [],
+        "fructe de padure":[]
+      },
       "operatiuni": {
         "intretinere": {
           "indepartare frunze uscate": [],

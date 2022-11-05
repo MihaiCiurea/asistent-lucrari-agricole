@@ -80,7 +80,7 @@ const Home = () => {
               {currentWeather.main.humidity}%
             </p>
             <p className="m-0">
-              <span>Pressure:</span>
+              <span>Presiune:</span>
               {currentWeather.main.pressure}hPa
             </p>
           </div>
@@ -108,7 +108,7 @@ const Home = () => {
       <hr className="mt-4 mb-4 ms-2 me-2" />
       {data && (
         <>
-          <h2>Operatiunile care se efectueaza in aceasta luna </h2>
+          <h2>Operatiunile care se efectueaza in aceasta luna</h2>
           <div className="home-cards-container">
             {Object.keys(data.operatiuni).map((op) => (
               <Card
@@ -119,6 +119,7 @@ const Home = () => {
             ))}
           </div>
           <hr className="mt-4 mb-4 ms-2 me-2" />
+          <h2>Categorii</h2>
           <div className="home-cards-container">
             <Card
               title="Pomi fructiferi"
