@@ -9,6 +9,8 @@ const imagesMap = {
   fertilizare: "images/fertilizare.jpg",
   taiere: "images/taiere.jpg",
   deparazitare: "images/deparazitare.jpg",
+  plantare: "images/plantare.jpg",
+  "vopsire trunchiuri": "images/vopsire.jpg",
 };
 
 function getGeoLocation(cb) {

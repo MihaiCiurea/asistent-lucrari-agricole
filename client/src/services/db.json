@@ -1,6 +1,17 @@
 {
   "ianuarie": {
-    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "pomi fructiferi": [
+      "mar",
+      "par",
+      "prun",
+      "cais",
+      "cires",
+      "visin",
+      "piersic",
+      "nectarin",
+      "nuc",
+      "gutui"
+    ],
     "plantare": [],
     "tip sol": [],
     "distante plantare": [],
@@ -21,21 +32,36 @@
         "procedura": "Se stropeste..."
       },
       "irigare": [],
-      "fertilizare":[],
+      "fertilizare": [],
       "taiere": [],
       "recoltare": []
     }
   },
   "februarie": {
-    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "pomi fructiferi": [
+      "mar",
+      "par",
+      "prun",
+      "cais",
+      "cires",
+      "visin",
+      "piersic",
+      "nectarin",
+      "nuc",
+      "gutui"
+    ],
     "plantare": [],
     "tip sol": [],
     "distante plantare": [],
     "perioada plantare": [],
     "operatiuni": {
       "intretinere": {
-        "indepartare frunze uscate": ["Se indeparteaza frunzele uscate si se ard."],
-        "indepartare fructe uscate": ["Se indeparteaza fructele uscate si se ard."],
+        "indepartare frunze uscate": [
+          "Se indeparteaza frunzele uscate si se ard."
+        ],
+        "indepartare fructe uscate": [
+          "Se indeparteaza fructele uscate si se ard."
+        ],
         "protectie": []
       },
       "afanare sol": [],
@@ -48,16 +74,29 @@
         "procedura": "Se stropeste..."
       },
       "irigare": [],
-      "fertilizare":[],
+      "fertilizare": [],
       "taiere": [],
       "recoltare": []
     }
   },
   "martie": {
-    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "pomi fructiferi": [
+      "mar",
+      "par",
+      "prun",
+      "cais",
+      "cires",
+      "visin",
+      "piersic",
+      "nectarin",
+      "nuc",
+      "gutui"
+    ],
     "plantare": ["Toata luna"],
     "tip sol": [],
-    "distante plantare": ["Pentru mar, par, cais si visin, distanta de plantare este de 4 x 4m, pentru cires, piersic si nuc, distanta de plantare este de 5 x 5m."],
+    "distante plantare": [
+      "Pentru mar, par, cais si visin, distanta de plantare este de 4 x 4m, pentru cires, piersic si nuc, distanta de plantare este de 5 x 5m."
+    ],
     "perioada plantare": [],
     "operatiuni": {
       "intretinere": {
@@ -65,8 +104,12 @@
         "indepartare fructe uscate": [],
         "protectie": ["Se indeparteaza protectiile si se ard."],
         "afanare sol": [],
-        "vopsire trunchiuri": ["Se vopsesc trunchiurile si ramurile de schelet cu o solutie compusa din 2 kg var pasta,10 l apa si 500 g sulfat de fier"],
-        "curatare rani si dezinfectare": ["Ranile se dezinfecteaza cu o solutie de sulfat de cupru (piatra vanata) 3% sau sulfat de fier 5%, apoi se vor unge cu o pasta preparata din pamant argilos 60% si balega de vaca 40% si se vor infasura intr-un sac sau cu fasii de polietilena"]
+        "vopsire trunchiuri": [
+          "Se vopsesc trunchiurile si ramurile de schelet cu o solutie compusa din 2 kg var pasta,10 l apa si 500 g sulfat de fier"
+        ],
+        "curatare rani si dezinfectare": [
+          "Ranile se dezinfecteaza cu o solutie de sulfat de cupru (piatra vanata) 3% sau sulfat de fier 5%, apoi se vor unge cu o pasta preparata din pamant argilos 60% si balega de vaca 40% si se vor infasura intr-un sac sau cu fasii de polietilena"
+        ]
       },
       "deparazitare": {
         "solutie": "Se prepara ...",
@@ -77,16 +120,29 @@
         "procedura": "Se stropeste..."
       },
       "irigare": [],
-      "fertilizare":[],
+      "fertilizare": [],
       "taiere": [],
       "recoltare": []
     }
   },
   "aprilie": {
-    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "pomi fructiferi": [
+      "mar",
+      "par",
+      "prun",
+      "cais",
+      "cires",
+      "visin",
+      "piersic",
+      "nectarin",
+      "nuc",
+      "gutui"
+    ],
     "plantare": ["Toata luna"],
     "tip sol": [],
-    "distante plantare": ["Pentru mar, par, cais si visin, distanta de plantare este de 4 x 4m, pentru cires, piersic si nuc, distanta de plantare este de 5 x 5m."],
+    "distante plantare": [
+      "Pentru mar, par, cais si visin, distanta de plantare este de 4 x 4m, pentru cires, piersic si nuc, distanta de plantare este de 5 x 5m."
+    ],
     "perioada plantare": [],
     "operatiuni": {
       "intretinere": {
@@ -106,13 +162,26 @@
         "procedura": "Se stropeste..."
       },
       "irigare": [],
-      "fertilizare":["Se aplica ingrasamintele minerale si cele organice."],
-      "taiere": ["Se executa taierile in uscat, pana la inceperea umflarii mugurilor"],
+      "fertilizare": ["Se aplica ingrasamintele minerale si cele organice."],
+      "taiere": [
+        "Se executa taierile in uscat, pana la inceperea umflarii mugurilor"
+      ],
       "recoltare": []
     }
   },
   "mai": {
-    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "pomi fructiferi": [
+      "mar",
+      "par",
+      "prun",
+      "cais",
+      "cires",
+      "visin",
+      "piersic",
+      "nectarin",
+      "nuc",
+      "gutui"
+    ],
     "plantare": [],
     "tip sol": [],
     "distante plantare": [],
@@ -135,13 +204,24 @@
         "procedura": "Se stropeste..."
       },
       "irigare": [],
-      "fertilizare":["Se aplica ingrasamintele minerale si cele organice."],
+      "fertilizare": ["Se aplica ingrasamintele minerale si cele organice."],
       "taiere": ["Se executa taierile ramurilor uscate"],
       "recoltare": []
     }
   },
   "iunie": {
-    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "pomi fructiferi": [
+      "mar",
+      "par",
+      "prun",
+      "cais",
+      "cires",
+      "visin",
+      "piersic",
+      "nectarin",
+      "nuc",
+      "gutui"
+    ],
     "plantare": [],
     "tip sol": [],
     "distante plantare": [],
@@ -164,13 +244,24 @@
         "procedura": "Se stropeste..."
       },
       "irigare": [],
-      "fertilizare":["Se aplica ingrasamintele minerale si cele organice."],
+      "fertilizare": ["Se aplica ingrasamintele minerale si cele organice."],
       "taiere": ["Se executa taierile ramurilor uscate"],
       "recoltare": []
     }
   },
   "iulie": {
-    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "pomi fructiferi": [
+      "mar",
+      "par",
+      "prun",
+      "cais",
+      "cires",
+      "visin",
+      "piersic",
+      "nectarin",
+      "nuc",
+      "gutui"
+    ],
     "plantare": [],
     "tip sol": [],
     "distante plantare": [],
@@ -193,13 +284,24 @@
         "procedura": "Se stropeste..."
       },
       "irigare": [],
-      "fertilizare":["Se aplica ingrasamintele minerale si cele organice."],
+      "fertilizare": ["Se aplica ingrasamintele minerale si cele organice."],
       "taiere": ["Se executa taierile ramurilor uscate"],
       "recoltare": []
     }
   },
   "august": {
-    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "pomi fructiferi": [
+      "mar",
+      "par",
+      "prun",
+      "cais",
+      "cires",
+      "visin",
+      "piersic",
+      "nectarin",
+      "nuc",
+      "gutui"
+    ],
     "plantare": [],
     "tip sol": [],
     "distante plantare": [],
@@ -213,7 +315,7 @@
         "vopsire trunchiuri": [],
         "curatare rani si dezinfectare": []
       },
-    
+
       "deparazitare": {
         "solutie": "Se prepara ...",
         "procedura": "Se stropeste..."
@@ -223,42 +325,64 @@
         "procedura": "Se stropeste..."
       },
       "irigare": [],
-      "fertilizare":["Se aplica ingrasamintele minerale si cele organice."],
+      "fertilizare": ["Se aplica ingrasamintele minerale si cele organice."],
       "taiere": ["Se executa taierile ramurilor uscate"],
       "recoltare": []
     }
   },
   "septembrie": {
-      "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
-      "plantare": [],
-      "tip sol": [],
-      "distante plantare": [],
-      "perioada plantare": [],
-      "operatiuni": {
-        "intretinere": {
-          "indepartare frunze uscate": [],
-          "indepartare fructe uscate": [],
-          "protectie": [],
-          "afanare sol": [],
-          "vopsire trunchiuri": [],
-          "curatare rani si dezinfectare": []
-        },
-        "deparazitare": {
-          "solutie": "Se prepara ...",
-          "procedura": "Se stropeste..."
-        },
-        "tratamente fitosanitare": {
-          "solutie": "Se prepara...",
-          "procedura": "Se stropeste..."
-        },
-        "irigare": [],
-        "fertilizare":["Se aplica ingrasamintele minerale si cele organice."],
-        "taiere": ["Se executa taierile ramurilor uscate"],
-        "recoltare": []
-      }
+    "pomi fructiferi": [
+      "mar",
+      "par",
+      "prun",
+      "cais",
+      "cires",
+      "visin",
+      "piersic",
+      "nectarin",
+      "nuc",
+      "gutui"
+    ],
+    "plantare": [],
+    "tip sol": [],
+    "distante plantare": [],
+    "perioada plantare": [],
+    "operatiuni": {
+      "intretinere": {
+        "indepartare frunze uscate": [],
+        "indepartare fructe uscate": [],
+        "protectie": [],
+        "afanare sol": [],
+        "vopsire trunchiuri": [],
+        "curatare rani si dezinfectare": []
+      },
+      "deparazitare": {
+        "solutie": "Se prepara ...",
+        "procedura": "Se stropeste..."
+      },
+      "tratamente fitosanitare": {
+        "solutie": "Se prepara...",
+        "procedura": "Se stropeste..."
+      },
+      "irigare": [],
+      "fertilizare": ["Se aplica ingrasamintele minerale si cele organice."],
+      "taiere": ["Se executa taierile ramurilor uscate"],
+      "recoltare": []
+    }
   },
   "octombrie": {
-    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
+    "pomi fructiferi": [
+      "mar",
+      "par",
+      "prun",
+      "cais",
+      "cires",
+      "visin",
+      "piersic",
+      "nectarin",
+      "nuc",
+      "gutui"
+    ],
     "legume": ["varza", "ceapa"],
     "fructe de padure": ["mure", "zmeura", "afine", "aronia"],
     "plantare": {
@@ -269,7 +393,7 @@
         "fructe de padure": 2
       },
       "perioada plantare": []
-    },  
+    },
     "operatiuni": {
       "intretinere": [
         {
@@ -293,31 +417,176 @@
   },
 
   "noiembrie": {
-    "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
-    "plantare": {
-      "tip sol": [],
-      "distante plantare": {
-        "pomi fructiferi": ["4x4m"],
-        "legume": ["0.5x0.2m"],
-        "fructe de padure": ["2x2m"]
-      },
-      "perioada plantare": {
-        "pomi fructiferi": ["octombrie", "noiembrie", "martie", "aprilie"],
-        "legume": ["septembrie", "octombrie", "februarie", "martie"],
-        "fructe de padure": ["octombrie", "noiembrie", "martie", "aprilie"]
-      },
-      "echipament": {
-        "pomi fructiferi": ["foreza", "cazma", "lopata", "manusi protectie"],
-        "legume": ["cazma", "sapa", "plantator", "manusi protectie"],
-        "fructe de padure": ["cazma", "lopata", "manusi protectie"]
-      }
-  },
+    "pomi fructiferi": [
+      "mar",
+      "par",
+      "prun",
+      "cais",
+      "cires",
+      "visin",
+      "piersic",
+      "nectarin",
+      "nuc",
+      "gutui"
+    ],
+    "fructe de padure": [
+      "afine",
+      "aronia",
+      "coacaze",
+      "zmeura",
+      "mure",
+      "macese",
+      "catina",
+      "fragi",
+      "agrise",
+      "merisoare",
+      "fructe de soc"
+    ],
+
     "operatiuni": {
       "intretinere": {
-        "indepartare frunze uscate": ["Cu ajutorul unei greble se aduna frunzele uscate si se incinereaza pentru a se distruge bolile si daunatorii. Atentie insa ca focul sa poata fi supravegheat indeaproape pentru a nu se extinde"],
-        "indepartare fructe uscate": ["Cu ajutorul unei greble se aduna frunctele uscate si se incinereaza pentru a se distruge bolile si daunatorii. Atentie insa ca focul sa poata fi supravegheat indeaproape pentru a nu se extinde"],
-        "protectie": ["Pentru protejarea de rozatoare, se foloseste o protectie confectionata din rafie care, se infasoara in jurul tulpinei copacilor. Pentru protectia la inghet se procedeaza la 'mulcire', prin acoperirea la baza cu scoarta de copac, aschii de copac, fan, astfel incat sa se creeze o bariera impotriva inghetului."],
-        "afanare sol": ["Se efectueaza afnarea solului prin operatiuni de arare, discuire si scarificare"],
+        "indepartare fructe uscate": [
+          "Cu ajutorul unei greble se aduna frunctele uscate si se incinereaza pentru a se distruge bolile si daunatorii. Atentie insa ca focul sa poata fi supravegheat indeaproape pentru a nu se extinde"
+        ],
+        "echipament": ["manusi", "grebla"],
+        "protectie": [
+          "Pentru protejarea de rozatoare, se foloseste o protectie confectionata din rafie care, se infasoara in jurul tulpinei copacilor. Pentru protectia la inghet se procedeaza la 'mulcire', prin acoperirea la baza cu scoarta de copac, aschii de copac, fan, astfel incat sa se creeze o bariera impotriva inghetului."
+        ],
+        "afanare sol": [
+          "Se efectueaza afanarea solului prin operatiuni de arare, discuire si scarificare"
+        ],
+        "curatare rani si dezinfectare": {
+          "utilitate": [
+            "Ranile si fisurile rezultate dupa taieri sau in urma actiunii factorilor de mediu extremi pot reprezenta porti de intrare pentru diferiti patogeni in planta, favorizand instalarea infectiilor. Din acest motiv, in pomicultura este importanta aplicarea substantelor pe baza de cupru pentru dezinfectare si sigilarea ranilor cu mastic. "
+          ],
+          "procedura": [
+            "De obicei, arborii formeaza un tesut de protectie (calus) in zonele afectate, in urmatoarea perioada de crestere. Totusi, pentru a preveni infectiile, se trateaza ranile cu solutie pe baza de cupru, dupa care se sigileaza cu mastic. "
+          ]
+        }
+      },
+      "deparazitare": {
+        "tratament": [
+          "Pentru o protecție reușită a pomilor fructiferi, este nevoie de o informare constantă și consistentă din partea fiecărui fermier sau deținător de astfel de specii. În general, tehnologiile de protecție sunt diferențiate pe specii și chiar pe soiuri, familii sau varietăți, acestea având sensibilitate (sa rezistență) diferită față de anumite boli sau dăunători"
+        ],
+        "solutie": ["Se prepara o solutie in proportia de 1cup/2l apa."],
+        "compozitie": [
+          "100% Diatomita, Dioxid de Siliciu, SiO2, sub forma de praf amorf, foarte fin, de calitate alimentara E551"
+        ],
+        "procedura": [
+          "In agricultura conventionala si biologica: legumicultura, pomicultura, viticultura, floricultura, in gradini, sere de legume si flori, spatiile verzi. Aplicati, pudrati sau pulverizati o cantitate suficienta pe plante, copaci, culturi, flori, infestate de paraziti. In caz de ploaie sau vant puternic repetati procedura de tratare dupa necesitate, fara limita sau interval in utilizare."
+        ],
+        "echipament": [
+          "salopeta",
+          "cizme",
+          "manusi",
+          "masca",
+          "ochelari",
+          "pompa de stropit manuala",
+          "pulverizator",
+          "atomizor"
+        ]
+      },
+      "tratamente fitosanitare": {
+        "tratament": [
+          "In principal, trebuie sa aplici tratamentele descrise numai in perioada de repaus vegetativ, adica atunci cand pe pom nu mai este nicio frunza (in perioada de toamna). Un alt factor important de care va trebui sa tii cont este factorul meteorologic. Nu aplica substantele pentru protectia plantelor mentionate in acest articol in cazul in care afara sunt temperaturi negative, conditii de ploaie sau ninsoare si vant puternic!"
+        ],
+        "solutie": [
+          "Se prepara o solutie cu concentratie de 100 g zeama bordeleza WDG, dizolvata in 10 litri de apa"
+        ],
+        "compozitie": [],
+        "procedura": [
+          "Solutia se aplica cu pompa de storpit manuala, sau cu un alt dispozitiv de stropit, precum atomizor, etc. Se va pulveriza toata suprafata pomului (trunchi+coroana). Coaja va capata o nuanta albastruie. Dupa 1-3 saptamani, vom reveni cu un ulei horticol."
+        ],
+        "echipament": [
+          "salopeta",
+          "cizme",
+          "manusi",
+          "masca",
+          "ochelari",
+          "pompa de stropit manuala",
+          "pulverizator",
+          "atomizor"
+        ]
+      },
+      "irigare": [],
+      "fertilizare": [
+        "Pentru a crește și a se dezvolta corespunzător, precum și pentru a avea o recoltă bogată și sănătoasă, pomii fructiferi au nevoie de azot, fosfor și potasiu. În acest articol îți vorbim despre fertilizarea pomilor fructiferi. Mai exact, îți arătăm de ce este necesară, când se face și care sunt pașii pe care să îi urmezi pentru fertilizarea pomilor fructiferi."
+      ],
+      "taiere": {
+        "procedura": ["Se executa taierile ramurilor uscate"],
+        "echipament": [
+          "manusi",
+          "ochelari",
+          "foarfeca",
+          "ferastrau",
+          "drujba",
+          "topor"
+        ]
+      },
+      "recoltare": {
+        "manual": [],
+        "mecanizat": []
+      },
+      "plantare": {
+        "tip sol": [],
+        "distante plantare": {
+          "pomi fructiferi": ["4x4m"],
+          "fructe de padure": ["2x2m"]
+        },
+        "perioada plantare": {
+          "pomi fructiferi": ["octombrie", "noiembrie", "martie", "aprilie"],
+          "fructe de padure": ["octombrie", "noiembrie", "martie", "aprilie"]
+        },
+        "echipament": {
+          "pomi fructiferi": ["foreza", "cazma", "lopata", "manusi"],
+          "fructe de padure": ["cazma", "lopata", "manusi"]
+        }
+      },
+      "vopsire trunchiuri": {
+        "utilitate": [
+          "Vopsirea copacilor în toamnă se face pentru a-i proteja de ciuperci și dăunători care s-au așezat în scoarță pentru iarnă. În plus, copacii de grădină văruiți, precum și cei decorativi, își protejează trunchiurile de formarea de gheață, iar iepurii înfometați nu vor mesteca coaja acoperită cu var."
+        ],
+        "procedura": [
+          "Vopsirea grădinii pe bază de var se prepară după cum urmează: 2,5-3 kg de cretă sau var stins, o jumătate de kilogram de sulfat de cupru se diluează în 10 litri de apă și se adaugă câteva linguri de pastă de făină sau 100 g de clei de cazeină - toate acestea sunt lungi și amestecate cu diligență pentru a dizolva componentele, după care trebuie infuzată compoziția varului pentru copaci"
+        ],
+        "echipament": ["manusi", "bidinea", "pulverizator", "galeata"]
+      }
+    }
+  },
+  "decembrie": {
+    "pomi fructiferi": [
+      "mar",
+      "par",
+      "prun",
+      "cais",
+      "cires",
+      "visin",
+      "piersic",
+      "nectarin",
+      "nuc",
+      "gutui"
+    ],
+    "plantare": {
+      "pomi fructiferi": [],
+      "fructe de padure": []
+    },
+    "tip sol": [],
+    "distante plantare": {
+      "pomi fructiferi": [],
+      "legume": [],
+      "fructe de padure": []
+    },
+    "perioada plantare": {
+      "pomi fructiferi": [],
+      "legume": [],
+      "fructe de padure": []
+    },
+    "operatiuni": {
+      "intretinere": {
+        "indepartare frunze uscate": [],
+        "indepartare fructe uscate": [],
+        "protectie": [],
+        "afanare sol": [],
         "vopsire trunchiuri": [],
         "curatare rani si dezinfectare": []
       },
@@ -330,55 +599,68 @@
         "procedura": "Se stropeste..."
       },
       "irigare": [],
-      "fertilizare":["Se aplica ingrasamintele minerale si cele organice."],
+      "fertilizare": ["Se aplica ingrasamintele minerale si cele organice."],
       "taiere": ["Se executa taierile ramurilor uscate"],
       "recoltare": []
     }
   },
-  "decembrie": {
-      "pomi fructiferi": ["mar", "par", "prun", "cais", "cires", "visin", "piersic", "nectarin", "nuc", "gutui"],
-      "plantare":{
-        "pomi fructiferi": [],
-        "legume": [],
-        "fructe de padure":[]
-      },
-      "tip sol": [],
-      "distante plantare": {
-        "pomi fructiferi": [],
-        "legume": [],
-        "fructe de padure":[]
-      },
-      "perioada plantare": {
-        "pomi fructiferi": [],
-        "legume": [],
-        "fructe de padure":[]
-      },
-      "operatiuni": {
-        "intretinere": {
-          "indepartare frunze uscate": [],
-          "indepartare fructe uscate": [],
-          "protectie": [],
-          "afanare sol": [],
-          "vopsire trunchiuri": [],
-          "curatare rani si dezinfectare": []
-        },
-        "deparazitare": {
-          "solutie": "Se prepara ...",
-          "procedura": "Se stropeste..."
-        },
-        "tratamente fitosanitare": {
-          "solutie": "Se prepara...",
-          "procedura": "Se stropeste..."
-        },
-        "irigare": [],
-        "fertilizare":["Se aplica ingrasamintele minerale si cele organice."],
-        "taiere": ["Se executa taierile ramurilor uscate"],
-        "recoltare": []
-      }
-    },
   "months": {
-    "ro": ["ianuarie", "februarie", "martie", "aprilie", "mai", "iunie", "iulie", "august", "septembrie", "octombrie", "noiembrie", "decembrie"]
-  }
+    "ro": [
+      "ianuarie",
+      "februarie",
+      "martie",
+      "aprilie",
+      "mai",
+      "iunie",
+      "iulie",
+      "august",
+      "septembrie",
+      "octombrie",
+      "noiembrie",
+      "decembrie"
+    ]
+  },
+  "pomi fructiferi": [
+    "mar",
+    "par",
+    "prun",
+    "cais",
+    "cires",
+    "visin",
+    "piersic",
+    "nectarin",
+    "nuc",
+    "gutui"
+  ],
+  "fructe de padure": [
+    "afine",
+    "aronia",
+    "coacaze",
+    "zmeura",
+    "mure",
+    "macese",
+    "catina",
+    "fragi",
+    "agrise",
+    "merisoare",
+    "fructe de soc"
+  ],
+  "echipament": [
+    "atomizor",
+    "bidinea",
+    "manusi",
+    "masca de protectie speciala",
+    "ochelari",
+    "pulverizator",
+    "salopeta",
+    "pompa de stropit manuala",
+    "foarfeca",
+    "foreza",
+    "cazma",
+    "lopata",
+    "grebla",
+    "ferestrau",
+    "drujba",
+    "topor"
+  ]
 }
-
-

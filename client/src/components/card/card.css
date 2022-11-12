@@ -10,6 +10,7 @@
   width: 286px;
   height: 184px;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .card-container > h4 {

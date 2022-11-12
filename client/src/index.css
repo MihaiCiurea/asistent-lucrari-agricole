@@ -56,6 +56,13 @@ body {
   margin-right: 0.2rem;
 }
 
-h2 {
+h1,
+h2,
+h3 {
   text-align: center;
+  text-transform: capitalize;
+}
+
+.operations-wrapper {
+  text-align: start;
 }

@@ -16,7 +16,7 @@ const Home = () => {
   const [currentMonth, setCurrentMonth] = useState();
   const [currentWeather, setCurrentWeather] = useState();
   const [searchedCurrentWeather, setSearchedCurrentWeather] = useState();
-  const [searchedForecastToday, setSearchedForecastToday] = useState();
+  //const [searchedForecastToday, setSearchedForecastToday] = useState();
   const [selectedWeatherCard, setSelectedWeatherCard] = useState();
   const [forecastDataForToday, setForecastDataForToday] = useState();
   const [data, setData] = useState();
@@ -74,6 +74,8 @@ const Home = () => {
     setSelectedWeatherCard(selectedCardObj.name);
     setForecastDataForToday(forecast.current[forecastType]);
   };
+
+  console.log(data);
 
   return (
     <div className="home-container">
