@@ -143,7 +143,7 @@ const Home = () => {
               title="Pomi fructiferi"
               imgSrc={getImage("pomi fructiferi")}
             />
-            <Card title="Legume" imgSrc={getImage("legume")} />
+            {/* <Card title="Legume" imgSrc={getImage("legume")} /> */}
             <Card
               title="Fructe de padure"
               imgSrc={getImage("fructe de padure")}

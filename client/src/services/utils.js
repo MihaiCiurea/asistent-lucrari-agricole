@@ -3,7 +3,6 @@ const imagesMap = {
   "tratamente fitosanitare": "images/fito.jpg",
   recoltare: "images/recoltare.jpg",
   "pomi fructiferi": "images/pomiFructiferi.jpg",
-  legume: "images/legume.png",
   "fructe de padure": "images/fructePadure.jpg",
   irigare: "images/irigare.jpg",
   fertilizare: "images/fertilizare.jpg",

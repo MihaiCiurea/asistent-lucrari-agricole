@@ -383,7 +383,6 @@
       "nuc",
       "gutui"
     ],
-    "legume": ["varza", "ceapa"],
     "fructe de padure": ["mure", "zmeura", "afine", "aronia"],
     "plantare": {
       "tip sol": [],
@@ -445,13 +444,16 @@
 
     "operatiuni": {
       "intretinere": {
-        "indepartare fructe uscate": [
-          "Cu ajutorul unei greble se aduna frunctele uscate si se incinereaza pentru a se distruge bolile si daunatorii. Atentie insa ca focul sa poata fi supravegheat indeaproape pentru a nu se extinde"
+        "indepartare frunze si fructe uscate": [
+          "Cu ajutorul unei greble se aduna fructele si frunzele uscate si se incinereaza pentru a se distruge bolile si daunatorii. Atentie insa ca focul sa poata fi supravegheat indeaproape pentru a nu se extinde"
         ],
-        "echipament": ["manusi", "grebla"],
-        "protectie": [
-          "Pentru protejarea de rozatoare, se foloseste o protectie confectionata din rafie care, se infasoara in jurul tulpinei copacilor. Pentru protectia la inghet se procedeaza la 'mulcire', prin acoperirea la baza cu scoarta de copac, aschii de copac, fan, astfel incat sa se creeze o bariera impotriva inghetului."
-        ],
+        "echipament": ["manusi.jpg", "grebla.jpg", "extinctor.jpg"],
+        "protejare copaci": {
+          "procedura": [
+            "Pentru protejarea de rozatoare, se foloseste o protectie confectionata din rafie care, se infasoara in jurul tulpinei copacilor. Pentru protectia la inghet se procedeaza la 'mulcire', prin acoperirea la baza cu scoarta de copac, aschii de copac, fan, astfel incat sa se creeze o bariera impotriva inghetului."
+          ],
+          "echipament": ["manusi.jpg", "protectie copaci.jpg", "sfoara.jpg"]
+        },
         "afanare sol": [
           "Se efectueaza afanarea solului prin operatiuni de arare, discuire si scarificare"
         ],
@@ -460,8 +462,9 @@
             "Ranile si fisurile rezultate dupa taieri sau in urma actiunii factorilor de mediu extremi pot reprezenta porti de intrare pentru diferiti patogeni in planta, favorizand instalarea infectiilor. Din acest motiv, in pomicultura este importanta aplicarea substantelor pe baza de cupru pentru dezinfectare si sigilarea ranilor cu mastic. "
           ],
           "procedura": [
-            "De obicei, arborii formeaza un tesut de protectie (calus) in zonele afectate, in urmatoarea perioada de crestere. Totusi, pentru a preveni infectiile, se trateaza ranile cu solutie pe baza de cupru, dupa care se sigileaza cu mastic. "
-          ]
+            "De obicei, arborii formeaza un tesut de protectie (calus) in zonele afectate, in urmatoarea perioada de crestere. Totusi, pentru a preveni infectiile, se trateaza ranile cu solutie pe baza de cupru, dupa care se sigileaza cu mastic."
+          ],
+          "echipament": ["manusi.jpg", "mastic.jpg"]
         }
       },
       "deparazitare": {
@@ -476,14 +479,14 @@
           "In agricultura conventionala si biologica: legumicultura, pomicultura, viticultura, floricultura, in gradini, sere de legume si flori, spatiile verzi. Aplicati, pudrati sau pulverizati o cantitate suficienta pe plante, copaci, culturi, flori, infestate de paraziti. In caz de ploaie sau vant puternic repetati procedura de tratare dupa necesitate, fara limita sau interval in utilizare."
         ],
         "echipament": [
-          "salopeta",
-          "cizme",
-          "manusi",
-          "masca",
-          "ochelari",
-          "pompa de stropit manuala",
-          "pulverizator",
-          "atomizor"
+          "salopeta.jpg",
+          "cizme.jpg",
+          "manusi.jpg",
+          "masca.jpg",
+          "ochelari.jpg",
+          "pompa de stropit manuala.jpg",
+          "pulverizator.jpg",
+          "atomizor.jpg"
         ]
       },
       "tratamente fitosanitare": {
@@ -498,29 +501,37 @@
           "Solutia se aplica cu pompa de storpit manuala, sau cu un alt dispozitiv de stropit, precum atomizor, etc. Se va pulveriza toata suprafata pomului (trunchi+coroana). Coaja va capata o nuanta albastruie. Dupa 1-3 saptamani, vom reveni cu un ulei horticol."
         ],
         "echipament": [
-          "salopeta",
-          "cizme",
-          "manusi",
-          "masca",
-          "ochelari",
-          "pompa de stropit manuala",
-          "pulverizator",
-          "atomizor"
+          "salopeta.jpg",
+          "cizme.jpg",
+          "manusi.jpg",
+          "masca.jpg",
+          "ochelari.jpg",
+          "pompa de stropit manuala.jpg",
+          "pulverizator.jpg",
+          "atomizor.jpg"
         ]
       },
-      "irigare": [],
-      "fertilizare": [
-        "Pentru a crește și a se dezvolta corespunzător, precum și pentru a avea o recoltă bogată și sănătoasă, pomii fructiferi au nevoie de azot, fosfor și potasiu. În acest articol îți vorbim despre fertilizarea pomilor fructiferi. Mai exact, îți arătăm de ce este necesară, când se face și care sunt pașii pe care să îi urmezi pentru fertilizarea pomilor fructiferi."
-      ],
+      "irigare": {
+        "procedura": [
+          "Se executa irigarea plantelor pana la aparitia inghetului prin diferite metode."
+        ],
+        "echipament": ["manusi.jpg", "stropitoare.jpg", "cizme.jpg"]
+      },
+      "fertilizare": {
+        "procedura": [
+          "Pentru a crește și a se dezvolta corespunzător, precum și pentru a avea o recoltă bogată și sănătoasă, pomii fructiferi au nevoie de azot, fosfor și potasiu. În acest articol îți vorbim despre fertilizarea pomilor fructiferi. Mai exact, îți arătăm de ce este necesară, când se face și care sunt pașii pe care să îi urmezi pentru fertilizarea pomilor fructiferi."
+        ],
+        "echipament": ["manusi.jpg", "salopeta.jpg"]
+      },
       "taiere": {
         "procedura": ["Se executa taierile ramurilor uscate"],
         "echipament": [
-          "manusi",
-          "ochelari",
-          "foarfeca",
-          "ferastrau",
-          "drujba",
-          "topor"
+          "manusi.jpg",
+          "ochelari.jpg",
+          "foarfeca.jpg",
+          "ferastrau.jpg",
+          "drujba.jpg",
+          "topor.jpg"
         ]
       },
       "recoltare": {
@@ -528,7 +539,9 @@
         "mecanizat": []
       },
       "plantare": {
-        "tip sol": [],
+        "tip sol": [
+          "Solul trebuie sa fie cu un PH echilibrat, prielnic dezvoltarii plantelor."
+        ],
         "distante plantare": {
           "pomi fructiferi": ["4x4m"],
           "fructe de padure": ["2x2m"]
@@ -538,8 +551,13 @@
           "fructe de padure": ["octombrie", "noiembrie", "martie", "aprilie"]
         },
         "echipament": {
-          "pomi fructiferi": ["foreza", "cazma", "lopata", "manusi"],
-          "fructe de padure": ["cazma", "lopata", "manusi"]
+          "pomi fructiferi": [
+            "foreza.jpg",
+            "cazma.jpg",
+            "lopata.jpg",
+            "manusi.jpg"
+          ],
+          "fructe de padure": ["cazma.jpg", "lopata.jpg", "manusi.jpg"]
         }
       },
       "vopsire trunchiuri": {
@@ -549,7 +567,13 @@
         "procedura": [
           "Vopsirea grădinii pe bază de var se prepară după cum urmează: 2,5-3 kg de cretă sau var stins, o jumătate de kilogram de sulfat de cupru se diluează în 10 litri de apă și se adaugă câteva linguri de pastă de făină sau 100 g de clei de cazeină - toate acestea sunt lungi și amestecate cu diligență pentru a dizolva componentele, după care trebuie infuzată compoziția varului pentru copaci"
         ],
-        "echipament": ["manusi", "bidinea", "pulverizator", "galeata"]
+        "echipament": [
+          "manusi.jpg",
+          "bidinea.jpg",
+          "pulverizator.jpg",
+          "galeata.jpg",
+          "ochelari.jpg"
+        ]
       }
     }
   },
@@ -646,21 +670,25 @@
     "fructe de soc"
   ],
   "echipament": [
-    "atomizor",
-    "bidinea",
-    "manusi",
-    "masca de protectie speciala",
-    "ochelari",
-    "pulverizator",
-    "salopeta",
-    "pompa de stropit manuala",
-    "foarfeca",
-    "foreza",
-    "cazma",
-    "lopata",
-    "grebla",
-    "ferestrau",
-    "drujba",
-    "topor"
+    "atomizor.jpg",
+    "bidinea.jpg",
+    "manusi.jpg",
+    "masca de protectie speciala.jpg",
+    "ochelari.jpg",
+    "pulverizator.jpg",
+    "salopeta.jpg",
+    "pompa de stropit manuala.jpg",
+    "foarfeca.jpg",
+    "foreza.jpg",
+    "cazma.jpg",
+    "lopata.jpg",
+    "grebla.jpg",
+    "ferestrau.jpg",
+    "drujba.jpg",
+    "topor.jpg",
+    "extinctor.jpg",
+    "mastic.jpg",
+    "sfoara.jpg",
+    "protectie copaci.jpg"
   ]
 }
