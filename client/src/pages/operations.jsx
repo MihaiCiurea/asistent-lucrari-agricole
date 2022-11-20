@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getMonthsNames, getDataByMonth } from "../services/db";
 import { getCurrentMonth } from "../services/utils";
+import Card from "../components/card/card";
 
 const Operations = () => {
   const [data, setData] = useState();
@@ -33,25 +34,53 @@ const Operations = () => {
     }
 
     function renderRecursive(uiArr) {
+      const data = uiArr[1];
+      console.log(data);
+      // return (
+      //   <>
+      //     <h5>{data.title}</h5>
+      //     <div className="home-cards-container">
+      //       {data.content.map((p) =>
+      //         p.title ? (
+      //           renderRecursive([p])
+      //         ) : p.includes(".jpg") || p.includes(".png") ? (
+      //           <Card
+      //             title={"echipament" && console.log(p)}
+      //             imgSrc={`/images/${p}`}
+      //             // onClick={() => handleRedirect(op)}
+      //           />
+      //         ) : (
+      //           p
+      //         )
+      //       )}
+      //     </div>
+      //   </>
+      // );
+
       return uiArr.map((obj, index) => {
         return (
           <>
             <h5>{obj.title}</h5>
-            <ol>
+            <div className="equipment-cards-container">
               {obj?.content?.map((p) => {
                 return (
-                  <li className="m-2">
-                    {p.title ? (
-                      renderRecursive([p])
-                    ) : p.includes(".jpg") || p.includes(".png") ? (
-                      <img src={`/images/${p}`} alt="..." width={220} />
-                    ) : (
-                      p
-                    )}
-                  </li>
+                  // <ol className="m-2">
+                  p.title ? (
+                    renderRecursive([p])
+                  ) : p.includes(".jpg") || p.includes(".png") ? (
+                    <Card
+                      title={"echipament"}
+                      imgSrc={`/images/${p}`}
+                      // onClick={() => handleRedirect(op)}
+                    />
+                  ) : (
+                    // <img src={`/images/${p}`} alt="..." width={220} />
+                    p
+                  )
+                  // </ol>
                 );
               })}
-            </ol>
+            </div>
           </>
         );
       });

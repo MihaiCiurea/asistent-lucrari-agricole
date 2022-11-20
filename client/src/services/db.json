@@ -590,42 +590,137 @@
       "nuc",
       "gutui"
     ],
-    "plantare": {
-      "pomi fructiferi": [],
-      "fructe de padure": []
-    },
-    "tip sol": [],
-    "distante plantare": {
-      "pomi fructiferi": [],
-      "legume": [],
-      "fructe de padure": []
-    },
-    "perioada plantare": {
-      "pomi fructiferi": [],
-      "legume": [],
-      "fructe de padure": []
-    },
+    "fructe de padure": [
+      "afine",
+      "aronia",
+      "coacaze",
+      "zmeura",
+      "mure",
+      "macese",
+      "catina",
+      "fragi",
+      "agrise",
+      "merisoare",
+      "fructe de soc"
+    ],
+
     "operatiuni": {
       "intretinere": {
-        "indepartare frunze uscate": [],
-        "indepartare fructe uscate": [],
-        "protectie": [],
+        "indepartare frunze si fructe uscate": [],
+        "echipament": [],
+        "protejare copaci": {
+          "procedura": [
+            "Pentru protejarea de rozatoare, se foloseste o protectie confectionata din rafie care, se infasoara in jurul tulpinei copacilor. Pentru protectia la inghet se procedeaza la 'mulcire', prin acoperirea la baza cu scoarta de copac, aschii de copac, fan, astfel incat sa se creeze o bariera impotriva inghetului."
+          ],
+          "echipament": ["manusi.jpg", "protectie copaci.jpg", "sfoara.jpg"]
+        },
         "afanare sol": [],
-        "vopsire trunchiuri": [],
-        "curatare rani si dezinfectare": []
+        "curatare rani si dezinfectare": {
+          "utilitate": [
+            "Ranile si fisurile rezultate dupa taieri sau in urma actiunii factorilor de mediu extremi pot reprezenta porti de intrare pentru diferiti patogeni in planta, favorizand instalarea infectiilor. Din acest motiv, in pomicultura este importanta aplicarea substantelor pe baza de cupru pentru dezinfectare si sigilarea ranilor cu mastic. "
+          ],
+          "procedura": [
+            "De obicei, arborii formeaza un tesut de protectie (calus) in zonele afectate, in urmatoarea perioada de crestere. Totusi, pentru a preveni infectiile, se trateaza ranile cu solutie pe baza de cupru, dupa care se sigileaza cu mastic."
+          ],
+          "echipament": ["manusi.jpg", "mastic.jpg"]
+        }
       },
       "deparazitare": {
-        "solutie": "Se prepara ...",
-        "procedura": "Se stropeste..."
+        "tratament": [
+          "In aceste luni de pauza urmarim combaterea paduchilor testosi si, in special, a larvelor paduchilor de San Jose. In principal, trebuie sa aplici tratamentele descrise mai jos numai in perioada de repaus vegetativ, adica atunci cand pe pom nu mai este nicio frunza. In cazul in care vrei sa repeti tratamentele in primavara, nu aplica uleiul horticol si fungicidul cupric decat in momentul umflarii mugurilor. Asadar, pentru cea mai buna reusita si o populatie cat mai redusa de paduchi de San Jose si acarieni, respecta planul in doua etape. Acesta se aplica pentru toate tipurile de pomi fructiferi (mar, par, gutui, cais, piersic, nectarin, cires, visin, etc.), dar si arbusti fructiferi, arbori si arbusti decorativi. Un alt factor important de care va trebui sa tii cont este factorul meteorologic. Nu aplica substantele pentru protectia plantelor mentionate in acest articol in cazul in care afara sunt temperaturi negative, conditii de ploaie sau ninsoare si vant puternic!"
+        ],
+        "solutie": [
+          "Se prepara o solutie in proportia de 100 g zeama bordeleza WDG, dizolvata in 10 litri de apa"
+        ],
+        "compozitie": ["20% cupru metalic si 80% sulfat de cupru neutralizat"],
+        "procedura": [
+          "Tratamentul se va aplica cu respectarea conditiilor descrise mai sus, adica in lunile noiembrie-decembrie, cand toate frunzele au cazut. Solutia se aplica cu Vermorelul, sau cu un alt dispozitiv de stropit, precum atomizor, vermorel cu motor termic, etc. Se va pulveriza toata suprafata pomului (trunchi+coroana). Coaja va capata o nuanta albastruie. Dupa 1-3 saptamani, vom reveni cu un ulei horticol."
+        ],
+        "echipament": [
+          "salopeta.jpg",
+          "cizme.jpg",
+          "manusi.jpg",
+          "masca.jpg",
+          "ochelari.jpg",
+          "pompa de stropit manuala.jpg",
+          "pulverizator.jpg",
+          "atomizor.jpg"
+        ]
       },
       "tratamente fitosanitare": {
-        "solutie": "Se prepara...",
-        "procedura": "Se stropeste..."
+        "tratament": [
+          "In principal, trebuie sa aplici tratamentele descrise numai in perioada de repaus vegetativ, adica atunci cand pe pom nu mai este nicio frunza (in perioada de toamna). Un alt factor important de care va trebui sa tii cont este factorul meteorologic. Nu aplica substantele pentru protectia plantelor mentionate in acest articol in cazul in care afara sunt temperaturi negative, conditii de ploaie sau ninsoare si vant puternic!"
+        ],
+        "solutie": [
+          "Se prepara o solutie cu concentratie de 100 g zeama bordeleza WDG, dizolvata in 10 litri de apa"
+        ],
+        "compozitie": [],
+        "procedura": [
+          "Solutia se aplica cu pompa de storpit manuala, sau cu un alt dispozitiv de stropit, precum atomizor, etc. Se va pulveriza toata suprafata pomului (trunchi+coroana). Coaja va capata o nuanta albastruie. Dupa 1-3 saptamani, vom reveni cu un ulei horticol."
+        ],
+        "echipament": [
+          "salopeta.jpg",
+          "cizme.jpg",
+          "manusi.jpg",
+          "masca.jpg",
+          "ochelari.jpg",
+          "pompa de stropit manuala.jpg",
+          "pulverizator.jpg",
+          "atomizor.jpg"
+        ]
       },
-      "irigare": [],
-      "fertilizare": ["Se aplica ingrasamintele minerale si cele organice."],
-      "taiere": ["Se executa taierile ramurilor uscate"],
-      "recoltare": []
+      "irigare": {
+        "procedura": [
+          "Se executa irigarea plantelor pana la aparitia inghetului prin diferite metode."
+        ],
+        "echipament": ["manusi.jpg", "stropitoare.jpg", "cizme.jpg"]
+      },
+      "fertilizare": {
+        "procedura": [
+          "Pentru a crește și a se dezvolta corespunzător, precum și pentru a avea o recoltă bogată și sănătoasă, pomii fructiferi au nevoie de azot, fosfor și potasiu."
+        ],
+        "echipament": ["manusi.jpg", "salopeta.jpg"]
+      },
+      "taiere": {
+        "procedura": [],
+        "echipament": []
+      },
+      "recoltare": {
+        "manual": [],
+        "mecanizat": []
+      },
+      "plantare": {
+        "tip sol": [
+          "Solul trebuie sa fie cu un PH echilibrat, prielnic dezvoltarii plantelor."
+        ],
+        "distante plantare": {
+          "pomi fructiferi": [],
+          "fructe de padure": []
+        },
+        "perioada plantare": {
+          "pomi fructiferi": [],
+          "fructe de padure": []
+        },
+        "echipament": {
+          "pomi fructiferi": [],
+          "fructe de padure": []
+        }
+      },
+      "vopsire trunchiuri": {
+        "utilitate": [
+          "Vopsirea copacilor în toamnă se face pentru a-i proteja de ciuperci și dăunători care s-au așezat în scoarță pentru iarnă. În plus, copacii de grădină văruiți, precum și cei decorativi, își protejează trunchiurile de formarea de gheață, iar iepurii înfometați nu vor mesteca coaja acoperită cu var."
+        ],
+        "procedura": [
+          "Dacă nu s-a reușit vopsirea trunchiurilor și a ramurilor de schelet, trebuie acționat neapărat, alegându-se timp uscat cu soare. Pentru aceasta se va pregăti o emulsie din 2 kg pastă de var + 10 l apă + 500 g sulfat de fier sau sulfat de cupru + 100 g clei de oase sau 200 g clei de amidon sau 1 kg argilă. Acest tratament are dublu efect. Pe de o parte crește rezistența pomilor la iernat, iar pe de altă parte îndepărtează mult rozătoarele."
+        ],
+        "echipament": [
+          "manusi.jpg",
+          "bidinea.jpg",
+          "pulverizator.jpg",
+          "galeata.jpg",
+          "ochelari.jpg"
+        ]
+      }
     }
   },
   "months": {

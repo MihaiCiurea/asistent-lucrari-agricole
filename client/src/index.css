@@ -39,6 +39,16 @@ body {
   justify-content: center;
 }
 
+.equipment-cards-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+.equipment-cards-container img {
+  object-fit: contain;
+}
 .home-weather-card {
   width: fit-content;
   text-align: center;
