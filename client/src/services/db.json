@@ -444,19 +444,25 @@
 
     "operatiuni": {
       "intretinere": {
-        "indepartare frunze si fructe uscate": [
-          "Cu ajutorul unei greble se aduna fructele si frunzele uscate si se incinereaza pentru a se distruge bolile si daunatorii. Atentie insa ca focul sa poata fi supravegheat indeaproape pentru a nu se extinde"
-        ],
-        "echipament": ["manusi.jpg", "grebla.jpg", "extinctor.jpg"],
+        "indepartare frunze si fructe uscate": {
+          "procedura": [
+            "Cu ajutorul unei greble se aduna fructele si frunzele uscate si se incinereaza pentru a se distruge bolile si daunatorii. Atentie insa ca focul sa poata fi supravegheat indeaproape pentru a nu se extinde"
+          ],
+          "echipament": ["manusi.jpg", "grebla.jpg", "extinctor.jpg"]
+        },
+
         "protejare copaci": {
           "procedura": [
             "Pentru protejarea de rozatoare, se foloseste o protectie confectionata din rafie care, se infasoara in jurul tulpinei copacilor. Pentru protectia la inghet se procedeaza la 'mulcire', prin acoperirea la baza cu scoarta de copac, aschii de copac, fan, astfel incat sa se creeze o bariera impotriva inghetului."
           ],
           "echipament": ["manusi.jpg", "protectie copaci.jpg", "sfoara.jpg"]
         },
-        "afanare sol": [
-          "Se efectueaza afanarea solului prin operatiuni de arare, discuire si scarificare"
-        ],
+        "afanare sol": {
+          "procedura": [
+            "Se efectueaza afanarea solului prin operatiuni de arare, discuire si scarificare"
+          ],
+          "echipament": []
+        },
         "curatare rani si dezinfectare": {
           "utilitate": [
             "Ranile si fisurile rezultate dupa taieri sau in urma actiunii factorilor de mediu extremi pot reprezenta porti de intrare pentru diferiti patogeni in planta, favorizand instalarea infectiilor. Din acest motiv, in pomicultura este importanta aplicarea substantelor pe baza de cupru pentru dezinfectare si sigilarea ranilor cu mastic. "
@@ -535,16 +541,22 @@
         ]
       },
       "recoltare": {
-        "manual": [],
-        "mecanizat": []
+        "manual": ["Se recolteaza manual."],
+        "mecanizat": [
+          "Se recolteaza mecanizat, cu ajutorul utilajelor specifice."
+        ]
       },
       "plantare": {
         "tip sol": [
           "Solul trebuie sa fie cu un PH echilibrat, prielnic dezvoltarii plantelor."
         ],
         "distante plantare": {
-          "pomi fructiferi": ["4x4m"],
-          "fructe de padure": ["2x2m"]
+          "pomi fructiferi": [
+            "4 metri intre randuri si 3-4 metri intre copaci."
+          ],
+          "fructe de padure": [
+            "2 metri intre randuri si 2-1,5 metri intre plante."
+          ]
         },
         "perioada plantare": {
           "pomi fructiferi": ["octombrie", "noiembrie", "martie", "aprilie"],
@@ -606,8 +618,9 @@
 
     "operatiuni": {
       "intretinere": {
-        "indepartare frunze si fructe uscate": [],
-        "echipament": [],
+        "indepartare frunze si fructe uscate": {
+          "echipament": []
+        },
         "protejare copaci": {
           "procedura": [
             "Pentru protejarea de rozatoare, se foloseste o protectie confectionata din rafie care, se infasoara in jurul tulpinei copacilor. Pentru protectia la inghet se procedeaza la 'mulcire', prin acoperirea la baza cu scoarta de copac, aschii de copac, fan, astfel incat sa se creeze o bariera impotriva inghetului."
@@ -768,7 +781,7 @@
     "atomizor.jpg",
     "bidinea.jpg",
     "manusi.jpg",
-    "masca de protectie speciala.jpg",
+    "masca.jpg",
     "ochelari.jpg",
     "pulverizator.jpg",
     "salopeta.jpg",

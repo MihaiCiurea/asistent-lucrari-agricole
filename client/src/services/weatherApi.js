@@ -8,6 +8,7 @@ const weatherApi = axios.create({
 
 const API_KEY = process.env.REACT_APP_OPENWEATHER_API_KEY;
 
+console.log(API_KEY);
 let forecast = null;
 
 const getCurrentWeatherByLocation = () => {

@@ -34,8 +34,7 @@ const Operations = () => {
     }
 
     function renderRecursive(uiArr) {
-      const data = uiArr[1];
-      console.log(data);
+      // const data = uiArr[1];
       // return (
       //   <>
       //     <h5>{data.title}</h5>
@@ -69,13 +68,13 @@ const Operations = () => {
                     renderRecursive([p])
                   ) : p.includes(".jpg") || p.includes(".png") ? (
                     <Card
-                      title={"echipament"}
+                      title={p.split(".")[0]}
                       imgSrc={`/images/${p}`}
                       // onClick={() => handleRedirect(op)}
                     />
                   ) : (
                     // <img src={`/images/${p}`} alt="..." width={220} />
-                    p
+                    ((<br></br>), p)
                   )
                   // </ol>
                 );
