@@ -459,9 +459,9 @@
         },
         "afanare sol": {
           "procedura": [
-            "Se efectueaza afanarea solului prin operatiuni de arare, discuire si scarificare"
+            "Se efectueaza afanarea solului prin operatiuni de arare, discuire si scarificare pentru ca acesta sa poata primi cat mai multe substante nutritive."
           ],
-          "echipament": []
+          "echipament": ["cazma.jpg", "grebla.jpg"]
         },
         "curatare rani si dezinfectare": {
           "utilitate": [
@@ -502,7 +502,7 @@
         "solutie": [
           "Se prepara o solutie cu concentratie de 100 g zeama bordeleza WDG, dizolvata in 10 litri de apa"
         ],
-        "compozitie": [],
+        "compozitie": ["Sulfat de cupru si apa"],
         "procedura": [
           "Solutia se aplica cu pompa de storpit manuala, sau cu un alt dispozitiv de stropit, precum atomizor, etc. Se va pulveriza toata suprafata pomului (trunchi+coroana). Coaja va capata o nuanta albastruie. Dupa 1-3 saptamani, vom reveni cu un ulei horticol."
         ],

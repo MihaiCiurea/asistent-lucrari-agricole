@@ -34,49 +34,18 @@ const Operations = () => {
     }
 
     function renderRecursive(uiArr) {
-      // const data = uiArr[1];
-      // return (
-      //   <>
-      //     <h5>{data.title}</h5>
-      //     <div className="home-cards-container">
-      //       {data.content.map((p) =>
-      //         p.title ? (
-      //           renderRecursive([p])
-      //         ) : p.includes(".jpg") || p.includes(".png") ? (
-      //           <Card
-      //             title={"echipament" && console.log(p)}
-      //             imgSrc={`/images/${p}`}
-      //             // onClick={() => handleRedirect(op)}
-      //           />
-      //         ) : (
-      //           p
-      //         )
-      //       )}
-      //     </div>
-      //   </>
-      // );
-
       return uiArr.map((obj, index) => {
         return (
           <>
             <h5>{obj.title}</h5>
             <div className="equipment-cards-container">
               {obj?.content?.map((p) => {
-                return (
-                  // <ol className="m-2">
-                  p.title ? (
-                    renderRecursive([p])
-                  ) : p.includes(".jpg") || p.includes(".png") ? (
-                    <Card
-                      title={p.split(".")[0]}
-                      imgSrc={`/images/${p}`}
-                      // onClick={() => handleRedirect(op)}
-                    />
-                  ) : (
-                    // <img src={`/images/${p}`} alt="..." width={220} />
-                    ((<br></br>), p)
-                  )
-                  // </ol>
+                return p.title ? (
+                  renderRecursive([p])
+                ) : p.includes(".jpg") || p.includes(".png") ? (
+                  <Card title={p.split(".")[0]} imgSrc={`/images/${p}`} />
+                ) : (
+                  ((<br></br>), p)
                 );
               })}
             </div>
