@@ -618,14 +618,12 @@
 
     "operatiuni": {
       "intretinere": {
-        "indepartare frunze si fructe uscate": {},
         "protejare copaci": {
           "procedura": [
             "Pentru protejarea de rozatoare, se foloseste o protectie confectionata din rafie care, se infasoara in jurul tulpinei copacilor. Pentru protectia la inghet se procedeaza la 'mulcire', prin acoperirea la baza cu scoarta de copac, aschii de copac, fan, astfel incat sa se creeze o bariera impotriva inghetului."
           ],
           "echipament": ["manusi.jpg", "protectie copaci.jpg", "sfoara.jpg"]
         },
-        "afanare sol": [],
         "curatare rani si dezinfectare": {
           "utilitate": [
             "Ranile si fisurile rezultate dupa taieri sau in urma actiunii factorilor de mediu extremi pot reprezenta porti de intrare pentru diferiti patogeni in planta, favorizand instalarea infectiilor. Din acest motiv, in pomicultura este importanta aplicarea substantelor pe baza de cupru pentru dezinfectare si sigilarea ranilor cu mastic. "
@@ -680,42 +678,11 @@
           "atomizor.jpg"
         ]
       },
-      "irigare": {
-        "procedura": [
-          "Se executa irigarea plantelor pana la aparitia inghetului prin diferite metode."
-        ],
-        "echipament": ["manusi.jpg", "stropitoare.jpg", "cizme.jpg"]
-      },
       "fertilizare": {
         "procedura": [
           "Pentru a crește și a se dezvolta corespunzător, precum și pentru a avea o recoltă bogată și sănătoasă, pomii fructiferi au nevoie de azot, fosfor și potasiu."
         ],
         "echipament": ["manusi.jpg", "salopeta.jpg"]
-      },
-      "taiere": {
-        "procedura": [],
-        "echipament": []
-      },
-      "recoltare": {
-        "manual": [],
-        "mecanizat": []
-      },
-      "plantare": {
-        "tip sol": [
-          "Solul trebuie sa fie cu un PH echilibrat, prielnic dezvoltarii plantelor."
-        ],
-        "distante plantare": {
-          "pomi fructiferi": [],
-          "fructe de padure": []
-        },
-        "perioada plantare": {
-          "pomi fructiferi": [],
-          "fructe de padure": []
-        },
-        "echipament": {
-          "pomi fructiferi": [],
-          "fructe de padure": []
-        }
       },
       "vopsire trunchiuri": {
         "utilitate": [

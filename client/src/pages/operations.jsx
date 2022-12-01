@@ -35,25 +35,36 @@ const Operations = () => {
 
     function renderRecursive(uiArr, depth = 0) {
       return uiArr.map((obj, index) => {
-        return (
-          <>
-            {renderSwitch(obj, depth)}
-            <div className="equipment-cards-container">
-              {obj?.content?.map((p) => {
-                return p.title
-                  ? renderRecursive([p], depth + 1)
-                  : p.includes(".jpg") || p.includes(".png")
-                  ? renderImage(p)
-                  : ((<br></br>), p);
-              })}
-            </div>
-          </>
-        );
+        if (!hasEmptyContent(obj))
+          return (
+            <>
+              {renderSwitch(obj, depth)}
+              <div className="equipment-cards-container">
+                {obj?.content?.map((p) => {
+                  return p.title
+                    ? renderRecursive([p], depth + 1)
+                    : p.includes(".jpg") || p.includes(".png")
+                    ? renderImage(p)
+                    : renderDescription(p);
+                })}
+              </div>
+            </>
+          );
       });
     }
     return renderRecursive(recursive(data));
   };
 
+  function hasEmptyContent(obj) {
+    if (obj.content && obj?.content?.length === 0) {
+      return true;
+    }
+
+    return false;
+  }
+  function renderDescription(p) {
+    return <p>{p}</p>;
+  }
   function renderImage(p) {
     return <Card title={p.split(".")[0]} imgSrc={`/images/${p}`} />;
   }
