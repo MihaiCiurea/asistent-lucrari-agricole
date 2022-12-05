@@ -51,18 +51,25 @@ const getForecastByCity = (city) => {
   return weatherApi.get(`/forecast?q=${city}&units=metric&appid=${API_KEY}`);
 };
 
-const getForecastForToday = (forecastData) => {
+const getDailyForecast = (forecastData) => {
   const date = new Date();
   const offset = date.getTimezoneOffset();
-  const dateWithOffset = new Date(date.getTime() - offset * 60 * 1000);
-  const today = dateWithOffset.toISOString().split("T")[0];
-  return forecastData.list.filter((obj) => obj.dt_txt.includes(today));
+  const range = 6;
+  const dateWithOffset = new Date(
+    date.getTime() + range * 24 * 60 * 60 * 1000 - offset * 60 * 1000
+  );
+  const dateLimit = dateWithOffset.toISOString().split("T")[0];
+  const hour = "12:00:00";
+  return forecastData.list.filter(
+    (obj) =>
+      obj.dt_txt.split(" ")[0] < dateLimit && obj.dt_txt.split(" ")[1] === hour
+  );
 };
 
 export {
   getCurrentWeatherByLocation,
   getCurrentWeatherByCity,
   getForecastByLocation,
-  getForecastForToday,
+  getDailyForecast,
   getForecastByCity,
 };

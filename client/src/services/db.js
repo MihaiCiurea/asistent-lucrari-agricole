@@ -8,4 +8,11 @@ function getDataByMonth(month) {
   return { data: db[month] };
 }
 
-export { getMonthsNames, getDataByMonth };
+function getCategoryNames() {
+  return { data: db.categories };
+}
+function getDataByCategory(category) {
+  return { data: db[category] };
+}
+
+export { getMonthsNames, getDataByMonth, getDataByCategory, getCategoryNames };

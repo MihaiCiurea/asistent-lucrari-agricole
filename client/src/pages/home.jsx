@@ -3,7 +3,7 @@ import { getMonthsNames, getDataByMonth } from "../services/db";
 import {
   getCurrentWeatherByLocation,
   getForecastByLocation,
-  getForecastForToday,
+  getDailyForecast,
   getCurrentWeatherByCity,
   getForecastByCity,
 } from "../services/weatherApi";
@@ -31,7 +31,7 @@ const Home = () => {
       try {
         const weather = await getCurrentWeatherByLocation();
         const foreCast = await getForecastByLocation();
-        const forecastForToday = getForecastForToday(foreCast);
+        const forecastForToday = getDailyForecast(foreCast);
         const res = await getMonthsNames();
         monthsRo.current = res.data;
         const month = getCurrentMonth(res.data);
@@ -61,7 +61,7 @@ const Home = () => {
       const res = await getCurrentWeatherByCity(value);
       setSearchedCurrentWeather(res.data);
       const forecastData = await getForecastByCity(value);
-      const fcToday = getForecastForToday(forecastData.data);
+      const fcToday = getDailyForecast(forecastData.data);
       console.log(forecast.current, forecastData.data);
       forecast.current.forecastByCity = fcToday;
     } catch (error) {
@@ -109,7 +109,9 @@ const Home = () => {
         {forecastDataForToday &&
           forecastDataForToday.map((obj) => (
             <div className="home-weather-card">
-              <p>{obj.dt_txt.split(" ")[1]}</p>
+              <p>
+                {new Date(obj.dt_txt.split(" ")[0]).toString().split(" ")[0]}
+              </p>
               <img
                 src={
                   "http://openweathermap.org/img/wn/" +

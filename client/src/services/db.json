@@ -590,32 +590,6 @@
     }
   },
   "decembrie": {
-    "pomi fructiferi": [
-      "mar",
-      "par",
-      "prun",
-      "cais",
-      "cires",
-      "visin",
-      "piersic",
-      "nectarin",
-      "nuc",
-      "gutui"
-    ],
-    "fructe de padure": [
-      "afine",
-      "aronia",
-      "coacaze",
-      "zmeura",
-      "mure",
-      "macese",
-      "catina",
-      "fragi",
-      "agrise",
-      "merisoare",
-      "fructe de soc"
-    ],
-
     "operatiuni": {
       "intretinere": {
         "protejare copaci": {
@@ -717,30 +691,33 @@
       "decembrie"
     ]
   },
+  "categories": {
+    "ro": ["pomi fructiferi", "fructe de padure"]
+  },
   "pomi fructiferi": [
-    "mar",
-    "par",
-    "prun",
-    "cais",
-    "cires",
-    "visin",
-    "piersic",
-    "nectarin",
-    "nuc",
-    "gutui"
+    "mar.jpg",
+    "par.jpg",
+    "prun.jpg",
+    "cais.jpg",
+    "cires.jpg",
+    "visin.jpg",
+    "piersic.jpg",
+    "nectarin.jpg",
+    "nuc.jpg",
+    "gutui.jpg"
   ],
   "fructe de padure": [
-    "afine",
-    "aronia",
-    "coacaze",
-    "zmeura",
-    "mure",
-    "macese",
-    "catina",
-    "fragi",
-    "agrise",
-    "merisoare",
-    "fructe de soc"
+    "afin.jpg",
+    "aronia.jpg",
+    "coacaz.jpg",
+    "zmeur.jpg",
+    "mur.jpg",
+    "maces.jpg",
+    "catin.jpg",
+    "fragi.jpg",
+    "agrise.jpg",
+    "merisor.jpg",
+    "fructe-de-soc.jpg"
   ],
   "echipament": [
     "atomizor.jpg",
