@@ -84,3 +84,10 @@ h6 {
 .operations-wrapper {
   text-align: start;
 }
+
+.about {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

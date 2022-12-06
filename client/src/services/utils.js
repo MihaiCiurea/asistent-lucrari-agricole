@@ -31,7 +31,11 @@ function getCurrentMonth(months) {
 }
 
 function getImage(key) {
-  return imagesMap[key];
+  return imagesMap[key] ? imagesMap[key] : getImageRaw(key);
+}
+
+function getImageRaw(key) {
+  return "/images/" + key;
 }
 
 function getFormatedDate(monthsArr) {

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getMonthsNames, getDataByMonth } from "../services/db";
-import { getCurrentMonth } from "../services/utils";
+import { getCurrentMonth, getImage } from "../services/utils";
 import Card from "../components/card/card";
 
 const Operations = () => {
@@ -34,8 +34,9 @@ const Operations = () => {
     }
 
     function renderRecursive(uiArr, depth = 0) {
-      return uiArr.map((obj, index) => {
-        if (!hasEmptyContent(obj))
+      return uiArr
+        .filter((obj) => !hasEmptyContent(obj))
+        .map((obj) => {
           return (
             <>
               {renderSwitch(obj, depth)}
@@ -50,7 +51,7 @@ const Operations = () => {
               </div>
             </>
           );
-      });
+        });
     }
     return renderRecursive(recursive(data));
   };
@@ -66,7 +67,7 @@ const Operations = () => {
     return <p>{p}</p>;
   }
   function renderImage(p) {
-    return <Card title={p.split(".")[0]} imgSrc={`/images/${p}`} />;
+    return <Card title={p.split(".")[0]} imgSrc={getImage(p)} />;
   }
 
   function renderSwitch(obj, depth) {
